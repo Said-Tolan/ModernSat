@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../Css/Home.css">
+    <link rel="shortcut icon" href="../img/modernSat.png" type="image/x-icon">
+    <title>اداره منتجات - مودرن سات</title>
+</head>
+
+<body>
+    <div class="Container">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <div style="display: flex; align-items: center;">
+                    <img src="../img/modernSat.png" alt="error to download" width="48">
+                    <a class="navbar-brand" href="#" style="color: red; font-size: 30px;"><span
+                            style="color: blue;">م</span>ودرن <span style="color: blue;">س</span>ات</a>
+                    <f1 style="color: blue; font-size: 30px; margin-right: 1rem;">اداره المنتجات</f1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel" style="font-size: 23px;">اجزاء الموقع
+                        </h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <hr>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-1">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">اداره المنتجات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/Product-maintenance.html">اداره الصيانه</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <div class="jumbotron jumbotron-fluid text-center section" style="margin-top: 6rem;">
+            <h1 class="display-4">مودرن سات</h1>
+            <p class="lead">اهلا بك في اداره مودرن سات الرجاء لاهتمام بي اداره المنتجات لن التنظيم هو سر التقدم فرجاء
+                اللتزام والتنظيم والمتابعه وجزيل الشكر</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                class="bi bi-arrow-down text-primary" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+            </svg>
+        </div>
+
+        <!-- Features -->
+        <div class="section"
+            style="margin-top: 6rem; display: flex; justify-content: space-between; padding: 20px 40px;">
+            <div class="card" style="width: 18rem;">
+                <img src="../img/card1.png" class="card-img-top" alt="error in the download">
+                <div class="card-body">
+                    <h5 class="card-title">دعنا ننظف المنتجات!</h5>
+                    <p class="card-text">لتحقيق الابتكار، نزيل الفوضى.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/card2.png" class="card-img-top" alt="error in the downlaod">
+                <div class="card-body">
+                    <h5 class="card-title">تنظيم المنتجات يبدأ من هنا</h5>
+                    <p class="card-text">الترتيب يخلق فرصًا جديدة للنمو والإبداع</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="../img/card3.png" class="card-img-top" alt="error in the download">
+                <div class="card-body">
+                    <h5 class="card-title">كل فكرة تستحق التصفية!</h5>
+                    <p class="card-text">تنظيف المنتجات يبدأ بتنظيف الأفكار.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Body -->
+        <div class="section" style="margin-top: 6rem; padding: 10px 20px;">
+            <div style="display: flex; gap: 1rem;">
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text input-Body" id="productName">اسم المنتج</span>
+                    <input type="text" class="form-control input-Body" style="font-size: 17px;"
+                        aria-label="Sizing example input" aria-describedby="productName">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text input-Body" id="productCategory">صنف المنتج</span>
+                    <input type="text" class="form-control input-Body" style="font-size: 17px;"
+                        aria-label="Sizing example input" aria-describedby="productCategory">
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 1rem;">
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text input-Body" id="productPrice">السعر</span>
+                    <input type="text" class="form-control input-Body" style="font-size: 17px;"
+                        aria-label="Sizing example input" aria-describedby="productPrice">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text input-Body" id="productQuantity">الكميه</span>
+                    <input type="text" class="form-control input-Body" style="font-size: 17px;"
+                        aria-label="Sizing example input" aria-describedby="productQuantity">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text input-Body" id="productDiscount">الخصم</span>
+                    <input type="text" class="form-control input-Body" style="font-size: 17px;"
+                        aria-label="Sizing example input" aria-describedby="productDiscount">
+                </div>
+            </div>
+            <div style="display: flex; justify-content: space-around;">
+                <button type="button" class="btn btn-outline-primary" id="addProductButton">اضافه المنتج</button>
+                <h4>السعر الاجمالي: <span id="totalPrice">0.00</span></h4>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="margin-top: 2rem;">
+            <table class="table table-striped table-dark" id="productTable">
+                <thead>
+                    <tr>
+                        <th scope="col">اسم المنتج</th>
+                        <th scope="col">صنف المنتج</th>
+                        <th scope="col">سعر المنتج</th>
+                        <th scope="col">كميه البيع</th>
+                        <th scope="col">خصم</th>
+                        <th scope="col">الاجمالي</th>
+                        <th scope="col">إجراءات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="../JS/Home.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

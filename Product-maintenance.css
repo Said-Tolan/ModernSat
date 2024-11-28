@@ -1,0 +1,31 @@
+body {
+    direction: rtl;
+    text-align: right;
+    background: #1d2024;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.offcanvas-header{
+    display: flex;
+    align-items: center;
+    gap: 14rem;
+}
+
+.section{
+    background-color: #212529 !important;
+    flex: 1;
+}
+
+.card{
+    background-color: #212529 !important;
+    color: #fff;
+}
+
+.input-Body{
+    background-color: #111;
+    color: #fff;
+    border: none;
+}
